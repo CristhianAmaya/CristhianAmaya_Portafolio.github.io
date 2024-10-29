@@ -76,39 +76,60 @@ const proyectos = [];
 // Información detallada de cada proyecto
 const informacionProyectosProgramacion = {
     proyecto1: {
-        video: "https://youtu.be/fTfLZUlQzx4", // Reemplaza con el ID del video en YouTube
+        video: "Videos/Mentals Game Room VR - Trailer.mp4", // Reemplaza con el ID del video en YouTube
         nombre: "Mentals Game Room VR",
         motor: "Unity (C#)",
         area: "Game Programmer y Game Designer",
         descripcion: "Videojuego realizado en VR donde los jugadores podrán explorar un entorno 3D inmteractivo y participar en 3 diferentes juegos de desafíos mentales y velocidad de procesamiento cognitivo."
     },
     proyecto2: {
-        video: "https://youtu.be/UZDNRsPIMA0",
+        video: "Videos/ProcrastinAPP_Video.mp4",
         nombre: "ProcrastinApp",
         motor: "Unity (C#)",
         area: "Game Programmer y Game Designer",
         descripcion: "Videojuego realizado en primera persona donde los jugadores podrán aprender como la procrastinación, el ocio y el descanso influye de manera positiva en la vida de las personas. Se incluye un minijuego de baloncesto."
     },
     proyecto3: {
-        video: "https://youtu.be/nZj0pdF2Lzc",
-        nombre: "GeoTec-Media",
-        motor: "Unreal Engine (C++)",
-        area: "Game Designer y modelador 3D",
-        descripcion: "Simulador 3D para el laboratorio de infraestructura y Geotecnia de la Universidad Militar Nueva Granada, donde los estudiantes tendrán un primer vistazo del laboratorio, reconociendo el entorno a trabajar y los materiales que se utilizarán en el lugar."
-    },
-    proyecto4: {
-        video: "https://www.instagram.com/reel/C90k16khBzN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        video: "Videos/Caguama Dream Video.mp4",
         nombre: "Caguama Dream",
         motor: "Unity (C#)",
-        area: "Game Programmer y Game Designer",
+        area: "Game Programmer",
         descripcion: "Videojuego realizado para la “Game Jam 2024 creadores colombia” siendo galardonados con el premio del mejor juego entre los equipos participantes. Actualmente este proyecto se encuentra en desarrollo para ser lanzado al mercado."
     },
-    proyecto5: {
-        video: "https://youtu.be/KHX0sfZzKRU",
+    proyecto4: {
+        video: "Videos/ArtPaintVR_Video.mp4",
         nombre: "ArtpaintVR",
         motor: "Unity (C#)",
-        area: "Game Programmer y Game Designer",
+        area: "Game Programmer",
         descripcion: "Simulador de pintura en VR desarrollada en Unity haciendo uso de la tecnología Google CardBoard (VR para Celular), donde los jugadores tendrán la capacidad de pintar un lienzo haciendo uso del movimiento de la vista del aplicativo."
+    },
+    proyecto5: {
+        video: "Videos/Prueba_LifeIsTheGame.mp4",
+        nombre: "Mini Juego Disparos (Unity)",
+        motor: "Unity (C#)",
+        area: "Game Programmer",
+        descripcion: "Pequeña interfaz y Videojuego FPS en 3D realizado con Unity, donde el usuario tendrá la capacidad de disparar varias armas con un efecto diferente cada una y hacer bailar a un personaje con botones."
+    },
+    proyecto6: {
+        video: "Videos/Mini juego FPS.mp4",
+        nombre: "Mini Juego Disparos (Unreal Engine)",
+        motor: "Unreal Engine (C++)",
+        area: "Game Programmer",
+        descripcion: "Pequeño Videojuego FPS en 3D realizado con Unreal Engine, donde el usuario tendrá la capacidad de disparar proyectiles hacia todo el entorno en el que se encuentra."
+    },
+    proyecto7: {
+        video: "Videos/Geotec-Media_Video.mp4",
+        nombre: "GeoTec-Media",
+        motor: "Unreal Engine (C++)",
+        area: "Modelador 3D",
+        descripcion: "Simulador 3D para el laboratorio de infraestructura y Geotecnia de la Universidad Militar Nueva Granada, donde los estudiantes tendrán un primer vistazo del laboratorio, reconociendo el entorno a trabajar y los materiales que se utilizarán en el lugar."
+    },
+    proyecto8: {
+        video: "Videos/Juego Plataformas Con Unreal_Video.mp4",
+        nombre: "Mini Juego plataformas (Unreal Engine)",
+        motor: "Unreal Engine (C++)",
+        area: "Game Programmer",
+        descripcion: "Pequeño Videojuego de plataformas en 3D realizado con Unreal Engine, dónde Puede evitar los obstáculos para así llegar a la meta final."
     }
 };
 
@@ -188,30 +209,31 @@ const informacionProyectosModelado3D = {
 // Información proyectos Animación 2D y 3D
 const informacionProyectosAnimaciones = {
     proyecto1: {
-        video: "https://drive.google.com/file/d/1CAWTbDGCcDv_do9JpDlXxA9S4tfEPQk8/view?usp=drive_link", // Reemplaza con el ID del video en YouTube
+        video: "Videos/Animación 2D (destino).mp4", // Reemplaza con el ID del video en YouTube
         nombre: "Destino (Animación 2D)",
         motor: "Krita",
-        area: "Animación y Modelado",
-        descripcion: "Videojuego realizado en VR donde los jugadores podrán explorar un entorno 3D inmteractivo y participar en 3 diferentes juegos de desafíos mentales y velocidad de procesamiento cognitivo."
+        area: "Animación 2D",
+        descripcion: "Animación 2D realizada en Krita acerca de una cebolla samurai."
     },
     proyecto2: {
-        video: "https://drive.google.com/file/d/1Tm_DEZpUAeSBl76rpk0aRyzYfhUsSBsS/view?usp=drive_link",
+        video: "Videos/No les ha pasado que - animación 3D.mp4",
         nombre: "¿No les ha pasado que? (Animación 3D)",
         motor: "Maya",
-        area: "Animación y Modelado",
-        descripcion: "Videojuego realizado en primera persona donde los jugadores podrán aprender como la procrastinación, el ocio y el descanso influye de manera positiva en la vida de las personas. Se incluye un minijuego de baloncesto."
+        area: "Animación 3D y Modelado",
+        descripcion: "Animación 3D donde se ve una situación común entre las personas del día a día."
     },
     proyecto3: {
-        video: "https://youtu.be/LBgRI813bWw",
+        video: "Videos/Estoy hasta la llave.mp4",
         nombre: "¡Estoy hasta la llave! (Animación 3D)",
         motor: "Maya",
-        area: "Animación y Modelado",
-        descripcion: "Simulador 3D para el laboratorio de infraestructura y Geotecnia de la Universidad Militar Nueva Granada, donde los estudiantes tendrán un primer vistazo del laboratorio, reconociendo el entorno a trabajar y los materiales que se utilizarán en el lugar."
+        area: "Animación 3D y Modelado",
+        descripcion: "Animación 3D con una temática comica, donde el personaje principal, tendrá que conseguir las llaves para poder ir a trabajar."
     },
 };
-
+let ids;
 function mostrarInfoProyecto(id) {
     let proyecto;
+    ids = id;
 
     if (programacionVisible) {
         proyecto = informacionProyectosProgramacion[id];
@@ -287,6 +309,13 @@ function mostrarInfoProyecto(id) {
 
 // Cerrar pantalla flotante
 function cerrarPantalla() {
+    // Obtener el elemento de video
+    var video = document.getElementById(ids);
+    
+    // Pausar el video si está reproduciendo
+    if (video) {
+        video.pause();
+    }
     document.getElementById("pantalla-proyecto").style.display = "none";
 }
 

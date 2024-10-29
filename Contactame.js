@@ -20,3 +20,17 @@ window.onload = function() {
         }
     };
 };
+
+
+// Selecciona el checkbox y el overlay
+const checkBox = document.getElementById("check");
+const overlay = document.querySelector(".overlay");
+
+// Cuando se haga clic en el overlay, desmarca el checkbox
+overlay.addEventListener("click", function () {
+    checkBox.checked = false;
+});
+
+function cerrarHamburguesa(){
+    //document.querySelector('.navbar ul').style.left = '-100%';
+}
