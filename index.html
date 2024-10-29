@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Cris_Amaya</title>
+</head>
+<body>
+    <!-- 1. Encabezado -->
+    <header class="encabezado">
+        <div class="encabezado-img">
+            <img src="Imagenes/Banner.jpg" alt="Encabezado Imagen">
+        </div>
+    </header>
+
+    <!-- 2. Menú de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Acerca-de-mi">Acerca de mí</a></li>
+            <li><a href="#Educacion">Educación</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Proyectos-relevantes">Proyectos destacados</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3. Acerca de mí -->
+    <section id="acerca-de-mi" class="acerca-de-mi">
+        <div class="tittle_acercademi">
+            <h2>Acerca de mi</h2>
+        </div>
+        <div class="perfil">
+            <img src="Imagenes/mi foto.jpeg" alt="Foto de Perfil" class="perfil-img">
+            <h2>Cristhian Camilo Amaya Florez</h2>
+            <p>Correo: camiloamaya993@gmail.com</p>
+            <p>Teléfono: +57 314 3444323</p>
+            <p>Ubicación: Bogotá, Distrito capital, Colombia</p>
+            <div class="enlaces">
+                <img src="Imagenes/linkedin.png" alt="Foto de LinkedIn" class="linked-img">
+                <a href="https://www.linkedin.com/in/cristhian-camilo-amaya-florez-973a63310" target="_blank">LinkedIn</a> | 
+                <img src="Imagenes/github-icon-2.png" alt="Foto de Github" class="git-img">
+                <a href="https://github.com/CristhianAmaya" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="perfil-profesional">
+            <h3>Perfil Profesional</h3>
+            <p>Ingeniero en multimedia con conocimientos en diferentes lenguajes de programación, sistemas interactivos, generación de productos audiovisuales y gráficos. Específicamente cuento con habilidades en programación, animación, modelado 3D y renderizado. Soy una persona creativa y buscador de soluciones. Quien va en pro del cumplimiento de objetivos y la eficacia en cada uno de los proyectos; aportando activamente a los equipos de
+                trabajo y generando productos multimedia de calidad y a la medida.</p>
+        </div>
+
+        <div class="idiomas">
+            <h3>Idiomas</h3>
+            <div class="idioma">
+                <label for="espanol">Español</label>
+                <div class="barra">
+                    <div class="nivel" style="width: 60%;">100%</div>
+                </div>
+            </div>
+            <div class="idioma">
+                <label for="ingles">Inglés</label>
+                <div class="barra">
+                    <div class="nivel" style="width: 50%;">40%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Educación -->
+    <section id="educacion" class="educacion">
+        <h2>Educación</h2>
+        
+        <div class="botones-educacion">
+            <button class="boton" onclick="mostrarFormacion()">Formación Profesional</button>
+            <button class="boton" onclick="mostrarCursos()">Cursos y Diplomados</button>
+        </div>
+
+        <!-- Formación Profesional -->
+        <div id="formacion" class="contenido-educacion" style="display:none;">
+            <h3>Formación Profesional</h3>
+            <img src="Imagenes/ING_mul.jpg" alt="institucion_educativa" class="img_referencia">
+            <h4>Centro educativo</h4><p>Universidad Militar Nueva Granada</p>
+            <h4>Disciplina académica</h4><p>Ingeniería</p>
+            <h4>Título</h4><p>Ingeniero en Multimedia</p>
+            <h4>Fecha de inicio</h4><p>Agosto 2019</p>
+            <h4>Fecha de finalización</h4><p>Graduación pendiente</p>
+            <h4>Descripción</h4><p>El programa de Ingeniería en Multimedia de la Universidad Militar Nueva Granada 
+                capacita a sus estudiantes para diseñar soluciones tecnológicas innovadoras que respondan a las 
+                necesidades actuales de la sociedad. Con una formación integral que combina estándares en ingeniería 
+                computacional y multimedia, el programa permite a sus egresados desarrollar experiencias interactivas
+                 y centradas en la calidad del usuario, con énfasis en el diseño, la interactividad y la inteligencia 
+                 de sus productos. Además, fomenta habilidades de análisis crítico, liderazgo y responsabilidad, formando 
+                 profesionales capaces de trabajar en entornos multidisciplinarios y con un compromiso ético y social, 
+                 promoviendo el avance tecnológico y la creación de empresas en el sector.</p>
+        </div>
+
+        <!-- Cursos y Diplomados -->
+        <div id="cursos" class="contenido-educacion" style="display:none;">
+            <h3>Cursos y Diplomados</h3>
+            
+            <!-- Primer curso -->
+            <div class="curso1">
+                <img src="Imagenes/Aviso-diplomado.jpg" alt="institucion_educativa" class="img_referencia">
+                <h4>Centro educativo</h4><p>Universidad Militar Nueva Granada</p>
+                <h4>Nivel de estudios</h4><p>Diplomado</p>
+                <h4>Área profesional</h4><p>Desarrollo de Videojuegos</p>
+                <h4>Descripción del curso</h4><p>Desarrollo de videojuegos en Unity y C#</p>
+                <h4>Certificado o diploma</h4><img src="Imagenes/Desarrollo videojuegos diploma.jpg" alt="institucion_educativa" class="diploma">
+            </div>
+            
+            <!-- Segundo curso -->
+            <!-- <div class="curso2">
+                <img src="Imagenes/casa.png" alt="institucion_educativa" class="img_referencia">
+                <h4>Centro educativo</h4><p>Platzi</p>
+                <h4>Nivel de estudios</h4><p>Diplomado</p>
+                <h4>Área profesional</h4><p>Desarrollo de Videojuegos</p>
+                <h4>Descripción del curso</h4><p>Desarrollo de videojuegos en Unity y C#</p>
+                <h4>Certificado o diploma</h4><p>Diploma de Unity Developer</p>
+            </div> -->
+        </div>
+
+    </section>
+
+
+    <!-- 5. Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        
+        <div class="habilidad">
+            <h4>Desarrollador Unity (C#)</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 80%;">80%</div>
+            </div>
+        </div>
+        
+        <div class="habilidad">
+            <h4>Desarrollo en Unreal Engine (C++)</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 75%;">50%</div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <h4>Desarrollador Python</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 85%;">70%</div>
+            </div>
+        </div>
+        
+        <div class="habilidad">
+            <h4>Desarrollo Web (HTML, CSS, JavaScript)</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 85%;">70%</div>
+            </div>
+        </div>
+        
+        <div class="habilidad">
+            <h4>Modelado 3D</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 70%;">80%</div>
+            </div>
+        </div>
+        
+        <div class="habilidad">
+            <h4>Animación 3D</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 65%;">75%</div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <h4>Escritor de guiones</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 65%;">80%</div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <h4>Suite adobe</h4>
+            <div class="barra">
+                <div class="nivel" style="width: 65%;">50%</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 6. Proyectos Relevantes -->
+    <section id="proyectos-relevantes" class="proyectos-relevantes">
+        <h2>Proyectos Relevantes</h2>
+        
+        <div class="botones-proyectos">
+            <button class="boton-proyecto" onclick="mostrarProyectos('programacion')">Programación</button>
+            <button class="boton-proyecto" onclick="mostrarProyectos('diseno2D')">Diseño 2D</button>
+            <button class="boton-proyecto" onclick="mostrarProyectos('modelado3D')">Modelado 3D</button>
+            <button class="boton-proyecto" onclick="mostrarProyectos('animaciones')">Animaciones 2D y 3D</button>
+        </div>
+
+        <!-- Proyectos Programación -->
+        <div id="proyectos-programacion" class="proyectos-contenido" style="display: none;">
+            <h3>Proyectos de Programación</h3>
+            <p>Descripción y enlaces de proyectos en programación, como desarrollo de videojuegos o aplicaciones web.</p>
+            <div class="proyectos-Grid">
+                <!-- Rellenar con varios proyectos de ejemplo -->
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto1')">
+                    <img src="Proyectos programacion/Logo Mentals Game Room VR.png" alt="Proyecto 1">
+                    <p>Mentals Game Room VR</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto2')">
+                    <img src="Proyectos programacion/Logo ProcrastinAPP.png" alt="Proyecto 2">
+                    <p>ProcrastinApp</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto3')">
+                    <img src="Proyectos programacion/geotec-media.jpg" alt="Proyecto 3">
+                    <p>GeoTec-Media</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto4')">
+                    <img src="Proyectos programacion/Caguama logo.jpg" alt="Proyecto 4">
+                    <p>Caguama Dream</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto5')">
+                    <img src="Proyectos programacion/ArtPaintVR.jpg" alt="Proyecto 5">
+                    <p>ArtpaintVR</p>
+                </div>
+                <!-- Agregar más proyectos según sea necesario -->
+            </div>
+        </div>
+
+        <!-- Proyectos Diseño 2D -->
+        <div id="proyectos-diseno2D" class="proyectos-contenido" style="display:none;">
+            <h3>Proyectos de Diseño 2D</h3>
+            <p>Descripción y enlaces de proyectos relacionados con ilustraciones, diseño gráfico y animación 2D.</p>
+            <div class="proyectos-Grid">
+                <!-- Rellenar con varios proyectos de ejemplo -->
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto1')">
+                    <img src="Proyectos diseño 2D/The Dark Demon Hunter/La orden de los nueve clanes.jpg" alt="Proyecto 1">
+                    <p>The Dark Demon Hunter"</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto2')">
+                    <img src="Proyectos diseño 2D/Comic/Portada Pesadilla Infinita.png" alt="Proyecto 2">
+                    <p>Cómic "Pesadilla Infinita"</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto3')">
+                    <img src="Imagenes/Adobe_Illustrator.png" alt="Proyecto 3">
+                    <p>Logotipos y diseños"</p>
+                </div>
+                <!-- Agregar más proyectos según sea necesario -->
+            </div>
+        </div>
+
+
+        <!-- Proyectos Modelado 3D -->
+        <div id="proyectos-modelado3D" class="proyectos-contenido" style="display:none;">
+            <h3>Proyectos de Modelado 3D</h3>
+            <p>Descripción y enlaces de proyectos de modelado y renderizado de objetos y entornos en 3D.</p>
+
+            <div class="proyectos-Grid">
+                <!-- Rellenar con varios proyectos de ejemplo -->
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto1')">
+                    <img src="Imagenes/Maya logo.png" alt="Proyecto 1">
+                    <p>Modelos 3D</p>
+                </div>
+                <!-- Agregar más proyectos según sea necesario -->
+            </div>
+        </div>
+
+
+        <!-- Proyectos animaciones 2D y 3D -->
+        <div id="proyectos-animaciones" class="proyectos-contenido" style="display:none;">
+            <h3>Proyectos de Animación 2D y 3D</h3>
+            <p>Descripción y enlaces de proyectos de Animación y renderizado de animaciones 2D y 3D.</p>
+
+            <div class="proyectos-Grid">
+                <!-- Rellenar con varios proyectos de ejemplo -->
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto1')">
+                    <img src="Proyectos 3D/Animaciones/Destino.jpg" alt="Proyecto 1">
+                    <p>Destino (Animación 2D)"</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto2')">
+                    <img src="Proyectos 3D/Animaciones/No les ha pasado que.jpg" alt="Proyecto 2">
+                    <p>¿No les ha pasado que? (Animación 3D)</p>
+                </div>
+                <div class="proyecto-recuadro" onclick="mostrarInfoProyecto('proyecto3')">
+                    <img src="Proyectos 3D/Animaciones/Estoy hasta la llave.jpg" alt="Proyecto 3">
+                    <p>¡Estoy hasta la llave! (Animación 3D)</p>
+                </div>
+                <!-- Agregar más proyectos según sea necesario -->
+            </div>
+        </div>
+
+
+
+        <!-- Pantalla flotante para la información de los proyectos -->
+        <div id="pantalla-proyecto" class="pantalla-flotante">
+            <span class="cerrar" onclick="cerrarPantalla()">×</span>
+            <div id="contenido-video"></div>
+            <div id="contenido-proyecto"></div>
+        </div>
+    </section>
+
+
+    <!-- 7. Contáctame -->
+    <section id="contact" class="contact-section">
+        <h2>Contáctame</h2>
+        <p>Completa el siguiente formulario para enviarme un mensaje.</p>
+        <form id="contactForm" method="POST" action="contact.php">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="subject">Asunto</label>
+          <input type="text" id="subject" name="subject" required />
+      
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form>
+        <!-- Modal de confirmación -->
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <p>¡Tu mensaje fue enviado con éxito!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Pie de pagina-->
+    <footer class="container">
+        <div class="container-footer-all">
+            <div class="container-body">
+            <!--Se crea la primera columna donde irá información adicional de la empresa-->
+                <div class="colum1">
+                    <h2>
+                        Más información de la compañia
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                        Aperiam iusto quae illo aspernatur eum reprehenderit adipisci<br>
+                        eius sequi porro quidem molestias vel maiores sapiente, odit nesciunt<br>
+                        fuga sit eligendi accusantium!
+                    </p>
+                </div>
+
+            <!--Aquí se agrega la información de las redes sociales que maneja la empresa-->
+                <div class="colum2">
+                    <h2>
+                        Redes Sociales
+                    </h2>
+                    <div class="fila">
+                        <a target="_blank" href="https://www.facebook.com/cristhian.amayaflorez/">
+                            <img src="Imagenes/logo_facebook.png"/>
+                        </a>
+                        <label for="">
+                            Mi facebook
+                        </label>
+                    </div>
+                    <div class="fila1">
+                        <a target="_blank" href="mailto:camiloamaya32@gmail.com">
+                            <img src="Imagenes/logo_gmail.png" width="35" height="25"/>
+                        </a>
+                        <label>
+                            Envíame un correo
+                        </label>
+                    </div>
+                </div>
+
+            <!--Aquí se agrega la información extra de contacto de la empresa-->
+                <div class="colum3">
+                    <h2>
+                        Información de contacto
+                    </h2>
+                    <div class="fila2">
+                        <img src="Imagenes/casa.png">
+                        <h3>
+                            Lugar de residencia
+                        </h3>
+                        <label>
+                            Bogotá Distrito Capital
+                        </label>
+                    </div>
+                    <div class="fila21">
+                        <img src="Imagenes/celular.png">
+                        <h3>
+                            Celular de contacto
+                        </h3>
+                        <label>
+                            +57 314 3444323
+                        </label>
+                    </div>
+                    <div class="fila22">
+                        <img src="Imagenes/correo.png">
+                        <h3>
+                            Correo de contacto
+                        </h3>
+                        <label>
+                            camiloamaya993@gmail.com
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-footer">
+            <div class="copyright">
+                    Políticas de privacidad | ©2021 Copyright | Todos los derechos reservados<br>
+                    Desarrollado por Cristhian Amaya
+            </div>
+            <div class="information">
+                <a href="index.html">
+                    Inicio
+                </a>
+                <label> | </label> 
+                <a href="Cotizacion.html">
+                    Cotización
+                </a>
+                <label> | </label> 
+                <a href="Servicios.html">
+                    Nuestros servicios
+                </a>
+                <label> | </label> 
+                <a href="Trabaja.html">
+                    Trabaja con nosotros
+                </a>
+                <label> | </label> 
+                <a href="Contactanos.html">
+                    Contactanos
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Se incluye el archivo JavaScript aquí -->
+<script src="index.js"></script>
+<script src="Proyectos.js"></script>
+<script src="Contactame.js"></script> 
+</body>
+</html>
