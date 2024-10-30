@@ -290,7 +290,9 @@ html {
 
 /* Imagen de la educación */
 .img_referencia {
-    width: 350px; /* Ajusta el tamaño de la imagen */
+    width: 100%; /* Se ajusta al ancho del contenedor padre */
+    max-width: 200px; /* Establece un ancho máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 5px;
     object-fit: cover;
 }
@@ -313,14 +315,17 @@ html {
     font-size: 1rem;
 }   
 
-.diploma{
-    width: 650px;
+.diploma {
+    width: 100%; /* Se ajusta al ancho del contenedor padre */
+    max-width: 650px; /* Establece un ancho máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 
 
 /*--------------------------------------Habilidades--------------------------------------*/
 .habilidades {
+    margin-top: 30px;
     padding: 50px;
     text-align: center;
     max-width: 900px;
@@ -372,6 +377,7 @@ html {
 
 /* ------------- Estilos para la Sección Proyectos Relevantes ------------- */
 .proyectos-relevantes {
+    margin-top: 30px;
     padding: 50px;
     text-align: center;
     max-width: 900px;
@@ -433,8 +439,13 @@ html {
     font-size: 1rem;
 }
 
+strong{
+    color: #1abc9c;
+}
 
-
+h4{
+    color: #00bfff;
+}
 
 .proyectos-Grid {
     display: flex;
@@ -524,6 +535,7 @@ html {
 /* ------------- Estilos para la Sección Contáctame ------------- */
 
 .contact-section {
+    margin-top: 30px;
     padding: 50px;
     text-align: center;
     max-width: 900px;
@@ -792,12 +804,24 @@ html {
         max-width: 100%;
     }
 
+    .img_referencia {
+        max-width: 200px;
+    }
+
+    .diploma{
+        max-width: 260px;
+    }
+
     .perfil {
         padding: 10px;
     }
 
     .perfil-profesional, .idiomas {
         padding: 10px;
+    }
+
+    .perfil-profesional p {
+        font-size: 1rem;
     }
 
     /* Educación */
@@ -820,7 +844,7 @@ html {
     }
 
     .proyecto-recuadro {
-        width: 80%;
+        max-width: 70%;
         margin: 10px 0;
     }
 
@@ -835,6 +859,12 @@ html {
 
     .barra {
         height: 20px;
+    }
+
+    .boton-proyecto {
+        padding: 1px 2px;
+        border-radius: 5px;
+        font-size: 12px;
     }
 
 
